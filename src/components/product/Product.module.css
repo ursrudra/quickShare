@@ -1,0 +1,70 @@
+.Card {
+  height: 20rem;
+  width: 15rem;
+  color: #000;
+  text-align: center;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  -webkit-perspective: 1000rem;
+          perspective: 1000rem;
+  -webkit-box-shadow: 0 14px 20px #DDD;
+          box-shadow: 0 14px 20px #DDD;
+  margin: 1rem;
+}
+
+.Card:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  z-index: 9;
+}
+
+@media only screen and (max-width: 600px) {
+  .Card {
+    width: 100%;
+    padding: .5rem;
+    margin: .2rem;
+  }
+}
+
+.CardHeader {
+  background: #9af0bed2;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  max-height: 10%;
+  overflow: hidden;
+}
+
+.CardBody {
+  height: 100%;
+  text-align: left;
+}
+
+.CardFooter {
+  background: rgba(36, 37, 37, 0.212);
+  line-height: 2.5rem;
+  position: absolute;
+  z-index: 100;
+  margin-top: -3rem;
+  width: 15rem;
+  border-radius: 0 0 .4rem .4rem;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .CardFooter {
+    width: 100%;
+  }
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: .4rem;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Product.module.css.map */

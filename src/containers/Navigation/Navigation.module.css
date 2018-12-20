@@ -1,0 +1,45 @@
+.Navigation{
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 0;
+    margin:0;
+    background: #FFF;
+    color: #000;
+    height: 100%;
+    z-index: 99;
+    width: 14rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+    transition: all .3s ease-in-out;
+
+}
+.NavList{
+    list-style: none;
+    padding: 0;
+
+}
+.NavListItem{
+    padding: 1rem 0rem 1rem 1rem;
+}
+.NavListItem:hover{
+    background: aquamarine;
+}
+.NavListItem a{
+    text-decoration: none;
+}
+.NavTitle{
+    padding: 2rem 0rem;
+    text-align: center;
+
+}
+.NavTitle a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+    .Navigation{
+        display: block;
+        font-size: 1.1rem;
+    }
+}

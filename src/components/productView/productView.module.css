@@ -1,0 +1,136 @@
+/* .Container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    overflow: hidden;
+    color: white;
+}
+
+.imageCard{
+    position: relative;
+    z-index: 9;
+    padding-top: 2rem;
+    height: 50%;
+    width: 50%;
+    
+     
+}
+.Container::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+    position: absolute;
+    z-index: 1;
+   
+}
+.image{
+    border: 1rem solid #EEE;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.closeBtn{
+    width: 45px;
+    height: 45px;
+    font-size: 2rem;
+    font-weight: 400;
+    position: absolute;
+    right: -3rem;
+    top:1rem;
+    background: #000;
+    text-align: center;
+    line-height: 2rem;
+    
+}
+.closeBtn:hover{
+    background: #EEE;
+    color: #000;
+
+}
+.photographer{
+    text-align: center;
+} */
+@media only screen and (max-width: 600px) {
+    /* .imageCard{
+        margin: 2rem;
+    }
+    .image{
+        border: .5rem solid #EEE;
+  } */
+  .body,html{
+      height: 100px;
+      overflow: hidden;
+  }
+  .Container{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+a{
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+}
+.imageCard{
+    position: absolute;
+    top: 3.5rem;
+    z-index: 9;
+    width: calc(100% - .4rem);
+    
+     
+}
+.Container::after{
+    content: "";
+    width: 100%;
+    background-color:white;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+   
+}
+.image{
+    border: .2rem solid #DDD;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.closeBtn{
+    display: none;
+    width: 45px;
+    height: 45px;
+    font-size: 2rem;
+    font-weight: 400;
+    position: absolute;
+    right: -3rem;
+    top:1rem;
+    background: #000;
+    text-align: center;
+    line-height: 2rem;
+    
+}
+.closeBtn:hover{
+    background: #EEE;
+    color: #000;
+
+}
+.photographer{
+    text-align: center;
+    background: #EEE;
+    padding: 1rem 0;
+    color: #000;
+    margin-right: -.5rem;
+}
+}

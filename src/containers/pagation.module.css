@@ -1,0 +1,31 @@
+.button{
+    border: 0;
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.button:hover{
+    background-color:aqua; 
+}
+/* .buttonBack{
+    justify-self: start
+}
+.buttonNext{
+justify-self: end
+} */
+.Pagation{
+    display: grid;
+    grid-template: 1fr/auto auto;
+    justify-content: space-evenly;
+    grid-gap: 1rem;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+    
+}
