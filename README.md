@@ -28,5 +28,5 @@ Your app is ready to be deployed!
 Preview :
 https://quickshare-app.herokuapp.com/
 
-![demo_mobile](https://user-images.githubusercontent.com/6765089/180643976-4422af73-6f38-4030-91a4-a3fabdb67e50.png)
 ![demo_desktop](https://user-images.githubusercontent.com/6765089/180643979-104ea40c-5229-46d4-bc2c-911fb9f36a6b.png)
+![demo_mobile](https://user-images.githubusercontent.com/6765089/180644197-f3ef54bc-a415-4198-a4b8-29f8a6cff268.png)
